@@ -19,7 +19,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name azureresumerga0f4 --auth-mode key -d '$web' -s 'frontend/dist'
+            az storage blob upload-batch --account-name azureresumeleela --auth-mode key -d '$web' -s 'frontend/dist'
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
